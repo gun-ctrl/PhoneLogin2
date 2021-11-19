@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+   <!--根据控键的enable值 来设定不同的颜色
+   注意顺序：特殊在前 常规在后
+   enable状态 运行起来正常状态enable=true 其他状态enable=false
+   从上至下匹配
+   -->
+    <item android:drawable="@color/gray" android:state_enabled="false"/>
+    <item android:drawable="@color/botton_blue" android:state_enabled="true"/>
+</selector>
